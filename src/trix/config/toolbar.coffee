@@ -7,17 +7,17 @@ Trix.config.toolbar =
       <span class="button_group text_tools">
         <button type="button" class="bold" data-attribute="bold" data-key="b" title="#{lang.bold}">#{lang.bold}</button>
         <button type="button" class="italic" data-attribute="italic" data-key="i" title="#{lang.italic}">#{lang.italic}</button>
-        <button type="button" class="strike" data-attribute="strike" title="#{lang.strike}">#{lang.strike}</button>
+        <button type="button" class="strike" data-attribute="strike" data-key="k" title="#{lang.strike}">#{lang.strike}</button>
         <button type="button" class="link" data-attribute="href" data-action="link" data-key="k" title="#{lang.link}">#{lang.link}</button>
       </span>
 
       <span class="button_group block_tools">
-        <button type="button" class="quote" data-attribute="quote" title="#{lang.quote}">#{lang.quote}</button>
-        <button type="button" class="code" data-attribute="code" title="#{lang.code}">#{lang.code}</button>
-        <button type="button" class="list bullets" data-attribute="bullet" title="#{lang.bullets}">#{lang.bullets}</button>
-        <button type="button" class="list numbers" data-attribute="number" title="#{lang.numbers}">#{lang.numbers}</button>
-        <button type="button" class="block-level decrease" data-action="decreaseBlockLevel" title="#{lang.outdent}">#{lang.outdent}</button>
-        <button type="button" class="block-level increase" data-action="increaseBlockLevel" title="#{lang.indent}">#{lang.indent}</button>
+        <button type="button" class="quote" data-attribute="quote" data-key="q" title="#{lang.quote}">#{lang.quote}</button>
+        <button type="button" class="code" data-attribute="code" data-key="c" title="#{lang.code}">#{lang.code}</button>
+        <button type="button" class="list bullets" data-attribute="bullet" data-key="o" title="#{lang.bullets}">#{lang.bullets}</button>
+        <button type="button" class="list numbers" data-attribute="number" data-key="u" title="#{lang.numbers}">#{lang.numbers}</button>
+        <button type="button" class="block-level decrease" data-key="," data-action="decreaseBlockLevel" title="#{lang.outdent}">#{lang.outdent}</button>
+        <button type="button" class="block-level increase" data-key="." data-action="increaseBlockLevel" title="#{lang.indent}">#{lang.indent}</button>
       </span>
 
       <span class="button_group history_tools">
