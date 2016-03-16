@@ -8,7 +8,7 @@ Trix.config.toolbar =
         <button type="button" class="bold" data-attribute="bold" data-key="b" title="#{lang.bold}">#{lang.bold}</button>
         <button type="button" class="italic" data-attribute="italic" data-key="i" title="#{lang.italic}">#{lang.italic}</button>
         <button type="button" class="strike" data-attribute="strike" data-key="k" title="#{lang.strike}">#{lang.strike}</button>
-        <button type="button" class="link" data-attribute="href" data-action="link" data-key="k" title="#{lang.link}">#{lang.link}</button>
+        <button type="button" class="link" data-attribute="href" data-action="link" data-key="l" title="#{lang.link}">#{lang.link}</button>
       </span>
 
       <span class="button_group block_tools">
